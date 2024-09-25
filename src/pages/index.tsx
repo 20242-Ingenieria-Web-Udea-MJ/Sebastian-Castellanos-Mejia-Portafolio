@@ -1,8 +1,10 @@
-import Button from '@/components/atoms/Button/index';
+import Button from '@/components/atoms/buttoms/index';
 
 
 export default function Home() {
   return (
-    <button>Hire Me</button>
+    <div className='flex justify-center items-center h-screen'>
+      <Button />
+    </div>
   );
 }
