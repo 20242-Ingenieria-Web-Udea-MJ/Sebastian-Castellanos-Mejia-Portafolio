@@ -11,11 +11,12 @@ const ButtonPrincipal = () => {
   );
 };
 
-const ButtonRedes = () => {
+const ButtonRedes = ({ iconSrc }: { iconSrc: string }) => {
   return (
-    <button>
-       <img src="/Frame.png" alt="icon" className="inline-block w-4 h-4" />
+    <button className='inline-block w-12 h-12 bg-primary rounded-full flex items-center justify-center'>
+  <img src={iconSrc} alt="icon" className="w-7 h-7" />
     </button>
+
   )
 };
 
