@@ -35,7 +35,7 @@ export const TextPrincipal = ({ text }: { text: string }) => {
 
 export const TextPrincipal2 = ({ text }: { text: string }) => {
   return(
-    <h1 className='font-inter text-appGray text-[15px] leading-[24px] text-center w-[424px] h-[88px] absolute mb-4'>
+    <h1 className='font-inter text-appGray text-[15px] leading-[24px] text-center w-[424px] h-[88px] mb-4'>
       {text}
     </h1>
   );

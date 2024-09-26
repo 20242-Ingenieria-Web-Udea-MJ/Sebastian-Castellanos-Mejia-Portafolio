@@ -5,7 +5,7 @@ import React from 'react'
 
 const Inicio = () => {
   return (
-    <div className="flex flex-col justify-between items-center w-[970px] h-[467px] left-[9px] gap-0  bg-white relative">
+    <div className='flex flex-col items-center w-[970px] h-[467px] left-[9px] gap-4 bg-white  relative'>
        <TitlePrincipal>
            I’m Rayan Adlrdard <span className="text-primary">Front-end</span> Developer
         </TitlePrincipal>
@@ -15,6 +15,6 @@ const Inicio = () => {
     </div> 
        
   );
-}; 
+}
 
 export default Inicio;

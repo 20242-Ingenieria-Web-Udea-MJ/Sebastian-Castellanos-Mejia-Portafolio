@@ -12,6 +12,7 @@ const config: Config = {
         primary: '#FFB400',
         secondary: '#2B2B2B',
         appGray: '#767676',
+        background: '#F0F0F6',
       },
     },
   },
