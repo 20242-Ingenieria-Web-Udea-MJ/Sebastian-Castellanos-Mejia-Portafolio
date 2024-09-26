@@ -1,5 +1,5 @@
 import { ButtonPrincipal } from '../atoms/buttoms';
-import {TitlePrincipal, TitleSecondary} from '@/components/atoms/titles';
+import {TitlePrincipal, TextPrincipal} from '@/components/atoms/titles';
 import React from 'react'
 
 
@@ -9,7 +9,7 @@ const Inicio = () => {
        <TitlePrincipal>
            I’m Rayan Adlrdard <span className="text-primary">Front-end</span> Developer
         </TitlePrincipal>
-        <TitleSecondary title={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.'}/>
+        <TextPrincipal text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.'} />
         <ButtonPrincipal/>
         
     </div> 

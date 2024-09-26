@@ -11,22 +11,34 @@ export const TitlePrincipal = ({ children }: {children: React.ReactNode}) => {
 
 export const TitleSecondary = ({ title }: { title: string }) => {
   return (
-    <h1 className="font-inter text-appGray text-[16px] leading-[24px] text-left w-[424px] h-[88px] absolute top-[229px] left-[69px]">
+    <h1 className='font-inter font-bold text-[32px] leading-[40px] text-center w-[232px] h-[40px] mb-4'>
       {title}
     </h1>
   );
 };
 
-const TitleTertiary = ({ title }: { title: string }) => {
+export const TitleTertiary= ({ title }: { title: string }) => {
   return (
-    <h1 className='font-inter font-medium text-[18px] leading-[22.25px] text-left w-[158px] h-[22px] absolute top-[814.09px] left-[85px]  '>
+    <h1 className='font-inter font-medium text-[32px]  text-left w-[232px] h-[40px] absolute top-[510px] left-[387px]'>
       {title}
     </h1>
   );
 };
 
-const TextPrincipal = ({ text }: { text: string }) => {
-  return <p className='font-inter font-normal text-[15px] leading-[24px] text-center w-[438px] h-[68px] absolute top-[574.09px] left-[275px] '>{text}</p>;
+export const TextPrincipal = ({ text }: { text: string }) => {
+  return(
+  <h1 className='font-inter text-appGray text-[16px] leading-[24px] text-left w-[424px] h-[88px] absolute top-[229px] left-[69px]'>
+    {text}
+  </h1>
+  );
+}
+
+export const TextPrincipal2 = ({ text }: { text: string }) => {
+  return(
+    <h1 className='font-inter text-appGray text-[15px] leading-[24px] text-center w-[424px] h-[88px] absolute mb-4'>
+      {text}
+    </h1>
+  );
 };
 
-export default  {TitlePrincipal, TitleSecondary};
+export default  {TitlePrincipal, TitleSecondary, TitleTertiary, TextPrincipal,TextPrincipal2};
