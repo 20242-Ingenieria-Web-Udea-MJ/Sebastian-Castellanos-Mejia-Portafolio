@@ -16,7 +16,7 @@ const Extraskills = () => {
         </div>
          <div className="flex items-center">
               <img src="/icons/icons.png" alt="" className="text-appGray -4 h-4 mr-2" />
-             <h1 className='text-appGray w-[156px] h-[24px] text-[15px]'>GitHub</h1>
+             <h1 className='text-appGray w-[156px] h-[24px] text-[15px]'>Figma</h1>
          </div>
   </div>
   );
