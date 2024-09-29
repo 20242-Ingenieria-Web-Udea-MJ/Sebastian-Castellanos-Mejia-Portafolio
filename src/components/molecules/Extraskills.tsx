@@ -3,7 +3,7 @@ import { TitleSecondary } from '../atoms/titles';
 
 const Extraskills = () => {
   return (
-    <div className="flex flex-col items-start  w-[186px] h-[148px]">
+    <div className="w-[186px] h-[148px]">
          <TitleSecondary title={'Extra Skills'} />
   
          <div className="flex items-center">

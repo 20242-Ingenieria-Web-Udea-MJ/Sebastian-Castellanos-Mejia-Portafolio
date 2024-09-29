@@ -5,9 +5,9 @@ import Index from '../atoms/ProgressBar'
 const Languages = () => {
   return (
     <div className=''>
-        <TitleSecondary title={'Languages'}/>
-        <Index title={'Spanish'} percentage={100}/>
-        <Index title={'English'} percentage={50}/>
+        <TitleSecondary title={'Idiomas'}/>
+        <Index title={'Español'} percentage={100}/>
+        <Index title={'Ingles'} percentage={50}/>
     </div>
   );
 }

@@ -7,17 +7,16 @@ const Knowledge = () => {
     <div className='flex flex-col w-[970px] h-[653px] items-center gap-8'>
       
       <div className='flex flex-col items-center gap-4'>
-        <TitleSecondary title={'My Knowledge'} />
-        <TextPrincipal2 text={'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum'} />
+        <TitleSecondary title={'Mis conocimientos'} />
+        <span> </span>
+        <TextPrincipal2 text={'Estas son algunas de las áreas en las que he trabajado y en las que puedo aportar para generar valor.'} />
       </div>
 
       <div className='flex flex-wrap gap-4 justify-center'>
-        <Cuadro title={'Web Development'} text={'Blog, e-commerce'} url={'/icons/coding.png'} />
-        <Cuadro title={'UI/UX Design'} text={'Mobile app, website design'} url={'/icons/illustration.png'} />
-        <Cuadro title={'Sound Design'} text={'Voice Over, Beat Making'} url={'/icons/Microphone.png'} />
-        <Cuadro title={'Game Design'} text={'Character Design, Props & Objects'} url={'/icons/game-development.png'} />
-        <Cuadro title={'Photography'} text={'Portrait, product photography'} url={'/icons/Photographer.png'} />
-        <Cuadro title={'Advertising'} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi.'} url={''} />
+        <Cuadro title={'Diseño Web'} text={'Experiencia en el diseño de proyectos web personalizados utilizando Figma para crear interfaces atractivas y funcionales.'} url={'/icons/coding.png'} />
+        <Cuadro title={'Front-end'} text={'Crear interfaces de usuario y experiencias de usuario.'} url={'/icons/illustration.png'} />
+        <Cuadro title={'Backend-end'} text={'He trabajado en la creación de API REST, utilizando Nodejs, Express y Spring Boot.'} url={'/icons/coding.png'} />
+        <Cuadro title={'Control de versiones'} text={'Experiencia en la gestión de proyectos utilizando Git para control de versiones y colaboración eficiente.'} url={'/icons/git.png'} />
       </div>
     </div>
   );

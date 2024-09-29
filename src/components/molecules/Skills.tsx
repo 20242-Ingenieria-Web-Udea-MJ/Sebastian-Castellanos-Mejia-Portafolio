@@ -5,7 +5,7 @@ import React from 'react'
 const Skills = () => {
   return (
     <div className=''>
-        <TitleSecondary title={'Languages'}/>
+        <TitleSecondary title={'Lenguajes'}/>
         <Index title={'HTML'} percentage={80}/>
         <Index title={'CSS'} percentage={70}/>
         <Index title={'JS'} percentage={65}/>

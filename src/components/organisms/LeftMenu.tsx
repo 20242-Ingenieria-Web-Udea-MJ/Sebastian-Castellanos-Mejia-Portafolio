@@ -8,7 +8,7 @@ import Index from '../atoms/division/index';
 
 const LeftMenu = () => {
     return (
-      <div className='flex flex-col justify-between w-[305px] items-center bg-white gap-6 pt-10'>
+      <div className='flex flex-col justify-between w-[305px] items-center bg-white  pt-3'>
         <Profile/>
         <Index/>
         <About/>
