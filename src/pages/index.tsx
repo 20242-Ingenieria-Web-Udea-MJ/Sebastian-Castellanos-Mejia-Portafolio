@@ -6,11 +6,10 @@ import MainContent from "@/components/organisms/MainContent";
 
 export default function Home() {
   return (
-    <div className='flex justify-center h-screen'>
+    <div className='flex justify-center'>
        <LeftMenu/>
        <MainContent/>
        <RightMenu/>
-
     </div>
   );
 }

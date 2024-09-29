@@ -4,7 +4,7 @@ import {TitleSecondary, TextPrincipal2} from '@/components/atoms/titles';
 
 const Knowledge = () => {
   return (
-    <div className='flex flex-col w-[970px] h-[653px] items-center gap-8 '>
+    <div className='flex flex-col w-[970px] h-[653px] items-center gap-8'>
       
       <div className='flex flex-col items-center gap-4'>
         <TitleSecondary title={'My Knowledge'} />

@@ -2,7 +2,7 @@ import React from 'react';
 
 export const TitlePrincipal = ({ children }: {children: React.ReactNode}) => {
   return (
-    <h1 className="font-inter font-extrabold text-[48px] leading-[59.33px] text-left w-[500px] h-[118px] absolute top-[93px] left-[69px]">
+    <h1 className="font-inter font-extrabold text-[37px] leading-[59.33px] text-left w-[500px] h-[118px] absolute top-[93px] left-[69px]">
     {children}
   </h1>
   

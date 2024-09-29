@@ -8,8 +8,7 @@ const ProgressBar = ({ title, percentage }: { title: string, percentage: number 
         <span className="text-gray-500">{percentage}%</span>
       </div>
       <div className="relative w-full h-2 bg-transparent border-2 border-primary rounded-full">
-        <div
-          className="absolute top-0 left-0 h-full bg-primary rounded-full"
+        <div className="absolute top-0 left-0 h-full bg-primary rounded-full"
           style={{ width: `${percentage}%` }}
         ></div>
       </div>

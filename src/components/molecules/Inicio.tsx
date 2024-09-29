@@ -1,17 +1,18 @@
-import { ButtonPrincipal } from '../atoms/buttoms';
+import {ButtonPrincipal} from '../atoms/buttoms';
 import {TitlePrincipal, TextPrincipal} from '@/components/atoms/titles';
 import React from 'react'
 
 
 const Inicio = () => {
   return (
-    <div className='flex flex-col items-center w-[970px] h-[467px] left-[9px] gap-4 bg-white  relative'>
+    <div className='flex flex-col items-center justify-center w-[970px] h-[467px] gap-4 bg-white relative'>
+      <div className='flex flex-col items-center  gap-4'>
        <TitlePrincipal>
-           I’m Rayan Adlrdard <span className="text-primary">Front-end</span> Developer
+           I’m Sebastián Castellanos<span className="text-primary"> Front-end</span> Developer
         </TitlePrincipal>
-        <TextPrincipal text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.'} />
+        <TextPrincipal text={'Soy un estudiante de Ingeniería de Sistemas de la Universidad de Antioquia con un fuerte interés en la ciberseguridad y el desarrollo Full Stack. Me apasiona aprender nuevas tecnologías y metodologías ágiles para el desarrollo de aplicaciones web, así como implementar soluciones seguras y escalables. '} />
         <ButtonPrincipal/>
-        
+       </div>
     </div> 
        
   );
