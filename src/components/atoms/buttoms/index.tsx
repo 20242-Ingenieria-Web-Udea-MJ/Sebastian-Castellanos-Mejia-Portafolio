@@ -15,7 +15,7 @@ const ButtonRedes = ({ iconSrc, Pagina }: { iconSrc: string, Pagina: string }) =
   return (
     <button
       className='inline-block w-12 h-12 bg-primary rounded-full flex items-center justify-center'
-      onClick={() => window.open(Pagina, '_blank')} // Abre en una nueva pestaña
+      onClick={() => window.open(Pagina, '_blank')} // Abre en una pestaña
     >
       <img src={iconSrc} alt="icon" className="w-7 h-7" />
     </button>
