@@ -5,7 +5,7 @@ const Profile = () => {
       <div className="flex flex-col items-center w-[150px] h-[242px] text-center">
         <div className="relative">
           <img
-            src="/images/killua.png"
+            src="/images/Perfil.jpeg"
             alt="Imagen Perfil"
             className="w-[150px] h-[150px] rounded-full object-cover mb-8"
           />
