@@ -13,7 +13,6 @@ const Inicio = () => {
         <TextPrincipal text={'Soy un estudiante de Ingeniería de Sistemas de la Universidad de Antioquia con un fuerte interés en la ciberseguridad y el desarrollo Full Stack. Me apasiona aprender nuevas tecnologías y metodologías ágiles para el desarrollo de aplicaciones web, así como implementar soluciones seguras y escalables.'} />
         <ButtonPrincipal/>
       </div>
-      {/* Agrega la imagen aquí */}
       <div>
         <img src='/images/Foto.jpeg' alt='Sebastián Castellanos' className='w-[390px] h-auto' />
       </div>
